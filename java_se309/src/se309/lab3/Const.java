@@ -15,4 +15,12 @@ public interface Const {
     final int LEFT_PAREN = 25;
     final int RIGHT_PAREN = 26;
     static final int EOF = -1;
+    final int START_BLOCK = 27;
+    final int END_BLOCK = 28;
+    final int IF_CODE = 31;
+    final int ELSE_CODE = 32;
+    final int LT_OP = 17;
+    final int GT_OP = 18;
+
+
 }
