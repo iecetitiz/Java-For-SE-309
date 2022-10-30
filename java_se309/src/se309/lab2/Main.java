@@ -15,7 +15,6 @@ public class Main {
 
         A b = new B(n1,n2,c);
         b.caller();
-
     }
 }
 

@@ -13,7 +13,6 @@ class Process implements Const {
     BufferedReader r = null;
     StringBuilder lexeme = null;
 
-
     void getChar() {
         try {
             nextChar = (char) r.read();
@@ -100,7 +99,6 @@ class Process implements Const {
                    }
                     getChar();
                 }
-
                 break;
             case DIGIT:
                 addChar();
@@ -134,7 +132,6 @@ class Process implements Const {
         } catch (FileNotFoundException e) {
             System.out.println("file not found");
         }
-
     }
 }
 
